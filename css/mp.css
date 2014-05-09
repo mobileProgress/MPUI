@@ -1,0 +1,161 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: rgb(230, 230, 230); 
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    hover: none;
+}
+
+.mp_screen {
+    position:absolute;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 44px;
+    background: gray;
+
+    transition: transform 400ms ease;
+    -webkit-transition: -webkit-transform 400ms ease;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility:hidden;
+    -webkit-transform:translate3d(0,0,0)
+
+}
+
+.mp_hidden {
+    visibility: hidden;
+}
+
+.right_end {
+    transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+}
+
+.mp_window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mp_title_bar {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 44px;
+
+    background:#111;
+    color:#fff;
+    font-weight:700;
+
+    /*filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#FFE5E5E5, EndColorStr=#FFFFFFFF);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ccc),to(#111));
+    background-image: -webkit-linear-gradient(#ccc,#111);
+    background-image: -webkit-linear-gradient(top, #ccc 0%, #111 100%); 
+    background-image: -moz-linear-gradient(#ccc,#111);
+    background-image: -moz-linear-gradient(top , #ccc 0%, #111 100%);
+    background-image: -ms-linear-gradient(#ccc,#111);
+    background-image: -ms-linear-gradient(top, #ccc 0%, #111 100%);
+    background-image: -o-linear-gradient(#ccc,#111);
+    background-image: -o-linear-gradient(top, #ccc 0%, #111 100%);
+    background-image: linear-gradient(#ccc,#111)
+    background-image: linear-gradient(to bottom, #ccc 0%, #111 100%);*/
+
+}
+
+.mp_bar_title {
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mp_bar_back_button {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #fff;
+    border-top: 1px solid #fed;
+    border-left: 1px solid #fed;
+    border-right: 1px solid #678;
+    border-bottom: 1px solid #678;
+    border-radius: 5px;
+    padding-top:6px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:4px;
+    color: black;
+    float:left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mp_bar_button {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #fff;
+    border-top: 1px solid #fed;
+    border-left: 1px solid #fed;
+    border-right: 1px solid #678;
+    border-bottom: 1px solid #678;
+    border-radius: 5px;
+    padding-top:6px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:4px;
+    color:black;
+    float:right;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mp_list {
+    list-style: none;
+    border-bottom: 1px solid #333;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+
+
+}
+
+.mp_list_item {
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    height: 20px;
+    padding: 10px;
+
+
+}
+
+.mp_list_item img {
+    clear:both;
+    float:left;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+.vls_base_product {
+}
+
+
