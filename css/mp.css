@@ -162,6 +162,7 @@ div {
 /* MPPrompt css rules */
 
 .prompt_back {
+    z-index: 200;
     position: absolute;
     top: 0px;
     left: 0px;
